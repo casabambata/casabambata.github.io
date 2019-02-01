@@ -1,0 +1,49 @@
+html {
+  background: url("images/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.whatsapp-link {
+  color: #60958a;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.whatsapp-link:hover, .whatsapp-link:focus {
+  color: #55857b;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer__link {
+  font-weight: regular;
+  color: #fff;
+  font-size: 1.2rem;
+  background-color: #60958a;
+  border-radius: 15px;
+  padding: 10px 40px;
+}
+
+.footer__link:hover, .footer__link:focus {
+  text-decoration: none;
+  color: #fff;
+  background-color: #55857b;
+}
+
+.comic-container {
+  margin-bottom: 15px;
+}
